@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hover:hover {
+  color: black;
+  background-color: purple;
+  transition: all 0.7s;
+}
