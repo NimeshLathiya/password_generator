@@ -5,7 +5,7 @@ function App() {
   const [length, setLength] = useState(8);
   const [numberAllowed, setnumberAllowed] = useState(false);
   const [charAllowed, setcharAllowed] = useState(false);
-  
+  const [password, setPassword] = useState("");
 
   const passwordRef = useRef(null);
 
